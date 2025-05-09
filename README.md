@@ -103,5 +103,4 @@ BUYME is a full-stack web application designed for hosting and managing online a
 
 ---
 
-## Folder Structure
 
