@@ -1,6 +1,6 @@
 # BUYME – Online Shoe Auction Platform 👟
 
-BUYME is a full-stack web application designed for hosting and managing online auctions specifically for shoes. The platform supports multiple user roles including buyers, sellers, customer representatives, and administrators, each with tailored functionalities. Built using **HTML, CSS, JavaScript**, and **MySQL**, the application is locally hosted and provides a responsive, real-time auction experience.
+BUYME is a full-stack web application designed for hosting and managing online auctions specifically for shoes. The platform supports multiple user roles including buyers, sellers, customer representatives, and administrators, each with tailored functionalities. Built using **HTML, CSS, JavaScript**, and **MySQL, Node.js, Express.js**, the application is locally hosted and provides a responsive, real-time auction experience.
 
 ---
 
