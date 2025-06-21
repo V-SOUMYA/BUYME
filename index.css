@@ -97,6 +97,7 @@ html {
   border-radius: 4px;
 }
  */
+
 ul .dropdown-menu {
   display: none;
   position: absolute;
@@ -170,6 +171,7 @@ ul .dropdown-menu {
   letter-spacing: 1px;
   /* font-size: small; */
 /* } */
+
 
 .main-banner {
   background: url('images/wshoe5.jpg') no-repeat center center fixed;
@@ -409,7 +411,7 @@ opacity: 0.3;
 .inputbox {
   position: relative;
   width: 100%;
-  margin-bottom: 1.5rem; /* Ensures space after each input */
+  margin-bottom: 1.5rem; 
 }
 
 .inputbox input,
