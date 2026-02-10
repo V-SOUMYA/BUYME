@@ -2,6 +2,7 @@
 
 BUYME is a full-stack web application designed for hosting and managing online auctions specifically for shoes. The platform supports multiple user roles including buyers, sellers, customer representatives, and administrators, each with tailored functionalities. Built using **HTML, CSS, JavaScript**, and **MySQL, Node.js, Express.js**, the application is locally hosted and provides a responsive, real-time auction experience.
 
+
 ---
 
 ## Features
@@ -9,6 +10,7 @@ BUYME is a full-stack web application designed for hosting and managing online a
 ### 1. User Authentication
 - **Signup Page**: Users can register by providing their full name, email, password, and selecting a role (buyer/seller).
 - **Login Page**: Authenticates users using email and password. Role-based redirection is implemented.
+  
 
 ---
 
@@ -29,6 +31,7 @@ BUYME is a full-stack web application designed for hosting and managing online a
   - Social media links
   - Address information
   - Query submission form
+    
 
 ---
 
@@ -39,6 +42,7 @@ BUYME is a full-stack web application designed for hosting and managing online a
   - **View Bids**:
     - Ongoing Auctions: Shows current highest bidder.
     - Completed Auctions: Displays final winner and bid details.
+      
 
 ---
 
@@ -50,6 +54,7 @@ BUYME is a full-stack web application designed for hosting and managing online a
 **Login Credentials**:  
 `Email`: rep@gmail.com  
 `Password`: 1234
+
 
 ---
 
@@ -87,6 +92,7 @@ BUYME is a full-stack web application designed for hosting and managing online a
 | Database    | MySQL                    |
 | Hosting     | Localhost (Web + SQL)    |
 | Fonts       | Google Fonts             |
+
 
 ---
 
