@@ -1,82 +1,106 @@
-👟 BUYME – Revolutionizing Online Shoe Auctions
+# BUYME – Online Shoe Auction Platform 👟
 
-BUYME is a dynamic, full-stack web application tailored for hosting and managing real-time shoe auctions. Whether you're a sneakerhead looking for rare kicks or a seller aiming to showcase exclusive collections, BUYME provides an interactive and streamlined experience for all users.
-Developed using HTML, CSS, JavaScript, Node.js, Express.js and MySQL, the platform is locally hosted and optimized for responsiveness and user engagement across devices. With role-based access and dedicated dashboards, BUYME ensures seamless navigation for every type of user — Buyers, Sellers, Customer Representatives, and Administrators.
+BUYME is a full-stack web application designed for hosting and managing online auctions specifically for shoes. The platform supports multiple user roles including buyers, sellers, customer representatives, and administrators, each with tailored functionalities. Built using **HTML, CSS, JavaScript**, and **MySQL, Node.js, Express.js**, the application is locally hosted and provides a responsive, real-time auction experience.
 
-🚀 Key Features
+---
 
-🔐 User Authentication
+## Features
 
-* Signup: Register with full name, email, password, and user role (Buyer/Seller).
-* Login: Role-based redirection after authentication for a personalized experience.
+### 1. User Authentication
+- **Signup Page**: Users can register by providing their full name, email, password, and selecting a role (buyer/seller).
+- **Login Page**: Authenticates users using email and password. Role-based redirection is implemented.
 
-🛍 Buyer Experience
-* Landing Page: Aesthetic parallax design and intuitive UI for easy navigation.
-* Auction Listings:
-  * Browse Ongoing and Completed auctions.
-  * View product images, detailed descriptions, and top bids.
-  * Filter by categories (Men's, Sneakers, Heels, etc.).
-    
-* Profile Management:
-  * Reset password, delete account, Logout and manage bid history.
+---
 
-* Support & Queries:
-  * Submit questions via contact form.
-  * View representative responses directly on your profile.
-  * Access social media links and address details.
+### 2. Buyer Functionality
+- **Landing Page**: Clean parallax design with an engaging UI.
+- **Start Bidding**: Buyers can view:
+  - Ongoing Auctions
+  - Completed Auctions
+- **Auction Detail Page**:
+  - Product photo and detailed description
+  - Categories (e.g., Men's, Sneakers, Heels, etc.)
+  - Current and previous top 2 bids
+- **Profile Section**:
+  - Reset password
+  - Delete account
+  - View/Delete bid history
+- **Contact Section**:
+  - Social media links
+  - Address information
+  - Query submission form
 
-🧾 Seller Dashboard
-* Product Management:
-  * Add new items with brand, size, material, and category details.
-  * Edit or delete listings as needed.
-  * Create auction for the interested item.
-    
-* Auction Insights:
-  * Monitor highest bids in real time.
-  * View final winners and bids after auctions close.
+---
 
-👩‍💼 Customer Representative Access
-* Preloaded credentials for demo/testing:
-  * Email: `rep@gmail.com` | Password: `1234`
-* View and respond to user-submitted queries.
-* All responses are instantly visible to the respective users.
+### 3. Seller Functionality
+- Upon login, sellers have access to:
+  - **Add Item**: Input all product details including brand, size, material, etc.
+  - **Manage Listings**: View, edit, delete products or create auctions.
+  - **View Bids**:
+    - Ongoing Auctions: Shows current highest bidder.
+    - Completed Auctions: Displays final winner and bid details.
 
-🛠 Admin Panel
-The Admin Dashboard gives full control over platform operations:
-* Dashboard Overview: Quick navigation to key functionalities.
-* User Management: View or delete registered accounts.
-* Product Oversight: Edit or remove all listings.
-* Auction Tracking: Analyze ongoing and completed auctions with bid history and winner data as well as can stop any acution if considered illegal.
-* Sales Reports:
-  * View total earnings
-  * Identify best-selling products and top buyers
+---
 
-Admin credentials:
-Email: `admin@gmail.com` | Password: `1234`
+### 4. Customer Representative
+- Preconfigured in SQL with direct login access.
+- Can view and respond to queries submitted via the Contact form.
+- Responses are reflected on the buyer’s user page.
 
-How the winner of an auction is declared?
-After the completion of auction, If the highest bid amount crosses the minimum price set by the seller then the winner is the highest bidder otherwise there is no winner for the given auction.
+**Login Credentials**:  
+`Email`: rep@gmail.com  
+`Password`: 1234
 
+---
 
-🧩 Tech Stack Overview
+### 5. Admin Dashboard
+- Centralized control panel for platform administration.
+- **Features**:
+  - **Dashboard (admin_dashboard.html)**:
+    - Quick access cards to different tools.
+  - **User Management** (`userlist.html`):
+    - View and delete registered users.
+  - **Product Management** (`shoelist.html`):
+    - Edit/delete all listings.
+  - **Bid Tracking** (`viewbids.html`):
+    - Ongoing vs. completed auctions
+    - Bidding history
+    - Winner identification
+  - **Auction Monitoring** (`auction.html`)
+  - **Sales Analysis** (`sales_report.html`):
+    - Total earnings
+    - Best-selling items
+    - Top buyers
 
-| Layer    | Technology                     |
-| -------- | ------------------------------ |
-| Frontend | HTML, CSS, JavaScript          |
-| Backend  | Node.js / Express |
-| Database | MySQL                          |
-| Hosting  | Localhost (Web + SQL)          |
-| Fonts    | Google Fonts                   |
+**Admin Login**:  
+`Email`: admin@gmail.com  
+`Password`: 1234
 
-🗃 Database Schema
+---
 
-* Users Table (with role-based distinctions)
-* Items Table
-* Auctions Table
-* Bids Table
-* User Queries Table
+## Tech Stack
 
-💡 Why BUYME?
-BUYME brings the thrill of bidding into a dedicated shoe marketplace with real-time updates, clean design, and personalized user journeys. Whether you're competing for exclusive kicks or managing sales efficiently, BUYME delivers a feature-rich, scalable auction platform ready for customization and deployment.
+| Layer       | Technology               |
+|-------------|--------------------------|
+| Frontend    | HTML, CSS, JavaScript    |
+| Backend     | Node.js / Express (optional custom server) |
+| Database    | MySQL                    |
+| Hosting     | Localhost (Web + SQL)    |
+| Fonts       | Google Fonts             |
+
+---
+
+## Database Design
+
+- Users Table (includes roles)
+- Product Listings Table
+- Auctions Table
+- Bids Table
+- Queries Table
+- Responses Table
+
+(Relational schema with foreign key constraints)
+
+---
 
 
